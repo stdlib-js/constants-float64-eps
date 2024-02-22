@@ -65,6 +65,11 @@ where `b` is the radix (base) and `p` is the precision (number of radix bits in 
 ## Usage
 
 ```javascript
+import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-eps/tags). For example,
+
+```javascript
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@v0.2.1-deno/mod.js';
 ```
 
@@ -91,7 +96,7 @@ var bool = ( EPS === 2.220446049250313e-16 );
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@deno/mod.js';
 import max from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-max@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@v0.2.1-deno/mod.js';
+import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
 
 var bool;
 var a;
